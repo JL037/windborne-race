@@ -1,0 +1,35 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite / Build
+dist/
+.vite/
+*.local
+
+# Logs
+logs/
+*.log
+*.log.*
+log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor
+.vscode/
+.idea/
+
+# macOS junk
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: pnpm store (should not be in repo)
+.pnpm-store/
